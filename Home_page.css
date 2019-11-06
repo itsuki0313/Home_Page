@@ -17,23 +17,43 @@ li {
 header {
 	background-color: #000000;
 	color: #fff;
-	height: 90px;
+	height: 100%;
+	text-align: center;
+
+	position: fixed;
+	z-index: 10;
 }
 
 .header-logo {
 	float: left;
-	font-size: 36px;
-	padding: 20px 40px;
+	font-size: 25px;
+	padding: 50px 30px;
 }
 
 .header-list li {
-	float: left;
-	padding: 33px 20px;
+	padding: 30px 50px;
+	font-size: 20px;
 }
 
 .top-wrapper {
-	padding: 180px 0 100px 0;
-	background-color: #0f0f0f;
-	background-size: cover;
+	margin-left: 235px;
+	background-image: url(DSC_0638.JPG);
+	background-size: auto auto;
+	background-repeat: no-repeat;
 	color: white;
+	font-size: 30px;
+	text-align: center;	
 }
+
+.top-container {
+	vertical-align: middle;
+}
+
+.news-wrapper {
+	margin-left: 235px;
+	padding: 200px 0px;
+	background-color: #f0f0f0;
+	background-size: cover;
+	color: black;
+}
+
