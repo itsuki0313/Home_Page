@@ -66,7 +66,7 @@ header {
 	height: 500px;
 }
 
-.top-container a {
+.top-container {
 	padding-top: 180px;
 	padding-left: 245px;
 	display: block;
@@ -84,13 +84,33 @@ header {
 	height: 1000px;
 }
 
-.news-wrapper a {
+.news-title {
 	text-align: center;
 	padding-top: 25px;
-	padding-left: 245px;
-	/*padding-left: 200px;*/
+	padding-left: 240px;
 	display: block;
 	font-size: 20px;
 	color: #000022;
+}
+
+.news-member {
+	padding-left: 400px;
+	text-align: center;
+}
+
+.news-box {
+	display: block;
+	margin-right: 20px;
+	margin-top: 50px;
+	position: relative;
+	float: left;
+}
+
+.news-box p {
+	position: absolute;
+	top: 30px;
+	color: black;
+	font-size: 25px;
+	font-weight: 600;
 }
 
