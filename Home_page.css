@@ -105,39 +105,26 @@ header {
 	font-weight: bold;
 }
 
-.news-box1 {
+.news-box {
 	background-color: #fff;
 	margin: 15px;
 	font-size: 20px;
 	letter-spacing: 5px;
 	padding:10px;
-	height: 300px;
+	height: 325px;
 	width: 250px;
 	border-radius: 20px;
+	text-align: center;
 }
 
-.news-box2 {
-	background-color: #fff;
+.news-box img {
 	margin: 15px;
-	font-size: 20px;
-	letter-spacing: 5px;
-	padding: 10px;
-	height: 300px;
-	width: 250px;
-	border-radius: 20px;
 }
 
-.news-box3 {
-	background-color: #fff;
-	margin: 15px;
-	font-size: 20px;
-	letter-spacing: 5px;
-	padding: 10px;
-	height: 300px;
-	width: 250px;
-	border-radius: 20px;
+.news-box-text {
+	letter-spacing: 0px;
+	font-weight: normal;
+	text-align: left;
 }
 
-.news-box3 img {
-	margin-left: 70px;
-}
+
